@@ -1,0 +1,31 @@
+{
+  "name": "coding-interviews",
+  "version": "1.0.0",
+  "description": "Codes and test cases for programming practice in book Coding Interviews: Questions, Analysis & Solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/meior/coding-interviews.git"
+  },
+  "keywords": [
+    "interview",
+    "algorithm",
+    "data structure",
+    "examination",
+    "practice"
+  ],
+  "author": "meiyl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meior/coding-interviews/issues"
+  },
+  "homepage": "https://github.com/meior/coding-interviews#readme",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
