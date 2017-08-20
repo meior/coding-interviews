@@ -9,19 +9,19 @@ Codes and test cases for programming practice in book Coding Interviews: Questio
 
 ## Installation
 Download this project:
-```sh
+```bash
 $ git clone git@github.com:meior/coding-interviews.git
 ```
 
 Install dependencies:
-```sh
+```bash
 $ cd coding-interviews
 $ npm install
 ```
 
 ## Usage
 Show categories and questions in project with this command:
-```sh
+```bash
 $ npm start
 ```
 
@@ -42,8 +42,13 @@ The other folders are categories, there are several programming questions in the
 - arraySearch.js(solution)
 - README.md(question and analysis)
 
-You can test your code of solution by using Mocha script, run this command in questions folder:
-```sh
+Test your code of solution by using Mocha script, you should install it globally:
+```bash
+$ npm install -g mocha
+```
+
+Run this command in questions folder:
+```bash
 $ mocha
 ```
 
