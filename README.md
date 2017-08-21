@@ -1,5 +1,5 @@
 # Coding Interviews
-Codes and test cases for programming practice in book Coding Interviews: Questions, Analysis & Solutions. It contains totally 66 questions. I programmed with JavaScript and run it on Node.js v6.10.2. Mocha provides unit testing to show whether or not answer is correct.
+Codes and test cases for programming practice in book Coding Interviews: Questions, Analysis & Solutions. It contains totally 66 questions. I programmed with JavaScript and run it on Node.js v6.10.2. `Mocha` provides unit testing to show whether or not answer is correct.
 
 [![Build Status](https://travis-ci.org/boennemann/badges.svg?branch=master)](https://github.com/ylasyn/yixan)
 [![Node.js](https://img.shields.io/badge/node-6.10.2-blue.svg)](https://github.com/nodejs/node)
