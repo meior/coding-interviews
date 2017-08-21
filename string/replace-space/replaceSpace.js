@@ -14,7 +14,7 @@ function replaceSpace(str) {
   let len = 0;
   let space = 0;
 
-  /* 统计有效字符与空格个数 */
+  // 统计有效字符与空格个数
   for (let i = 0, j = arr.length; i < j; i++) {
     len++;
     if (arr[i] === ' ') {
@@ -22,7 +22,7 @@ function replaceSpace(str) {
     }
   }
 
-  /* 将数组中的字符向后移动 */
+  // 将数组中的字符向后移动
   let newLen = len + space * 2;
   while (len >= 0 && newLen >= 0) {
     if (arr[len] === ' ') {
@@ -38,6 +38,4 @@ function replaceSpace(str) {
   return arr.join('');
 }
 
-module.exports = {
-  replaceSpace,
-};
+module.exports = replaceSpace;

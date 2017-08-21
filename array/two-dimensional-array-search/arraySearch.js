@@ -28,6 +28,4 @@ function find(target, array) {
   return false;
 }
 
-module.exports = {
-  find,
-};
+module.exports = find;

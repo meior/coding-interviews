@@ -20,19 +20,19 @@ node3.next = node4;
 node4.next = node5;
 
 const data = [
-  /* 正常表现的链表 */
+  // 正常表现的链表
   {
     args: node1,
     expected: [5, 4, 3, 2, 1],
     type: 'normal',
   },
-  /* 只有一个节点的链表 */
+  // 只有一个节点的链表
   {
     args: node5,
     expected: [5],
     type: 'only one node',
   },
-  /* 空链表 */
+  // 空链表
   {
     args: {},
     expected: [],
@@ -40,6 +40,4 @@ const data = [
   },
 ];
 
-module.exports = {
-  data,
-};
+module.exports = data;

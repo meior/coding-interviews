@@ -6,7 +6,7 @@
  */
 const array = [[1, 2, 8, 9], [2, 4, 9, 12], [4, 7, 10, 13], [6, 8, 11, 15]];
 const data = [
-  /* 要查找的数在数组中 */
+  // 要查找的数在数组中
   {
     args: {
       array,
@@ -15,7 +15,7 @@ const data = [
     expected: true,
     type: 'existent',
   },
-  /* 要查找的数不在数组中 */
+  // 要查找的数不在数组中
   {
     args: {
       array,
@@ -24,7 +24,7 @@ const data = [
     expected: false,
     type: 'nonexistent',
   },
-  /* 要查找的数是数组中最小的数字 */
+  // 要查找的数是数组中最小的数字
   {
     args: {
       array,
@@ -33,7 +33,7 @@ const data = [
     expected: true,
     type: 'minimum',
   },
-  /* 要查找的数是数组中最大的数字 */
+  // 要查找的数是数组中最大的数字
   {
     args: {
       array,
@@ -42,7 +42,7 @@ const data = [
     expected: true,
     type: 'maxmum',
   },
-  /* 要查找的数比数组中最小的数字还小 */
+  // 要查找的数比数组中最小的数字还小
   {
     args: {
       array,
@@ -51,7 +51,7 @@ const data = [
     expected: false,
     type: 'smaller than minimum',
   },
-  /* 要查找的数比数组中最大的数字还大 */
+  // 要查找的数比数组中最大的数字还大
   {
     args: {
       array,
@@ -60,7 +60,7 @@ const data = [
     expected: false,
     type: 'larger than maxmum',
   },
-  /* 鲁棒性测试，输入null */
+  // 鲁棒性测试，输入null
   {
     args: {
       array: null,
@@ -71,6 +71,4 @@ const data = [
   },
 ];
 
-module.exports = {
-  data,
-};
+module.exports = data;

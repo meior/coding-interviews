@@ -37,6 +37,4 @@ function printListFromTailToHead(head) {
   return result;
 }
 
-module.exports = {
-  printListFromTailToHead,
-};
+module.exports = printListFromTailToHead;
