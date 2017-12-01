@@ -1,7 +1,6 @@
 /**
  * 一次可以跳1级台阶，也可以跳2级，也可以跳n级
  * 计算到达第n级台阶的跳法数
- * 
  * @param  {Number} number 终点台阶数
  * @return {Number}        跳法数
  */

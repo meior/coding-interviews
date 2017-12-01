@@ -1,6 +1,5 @@
 /**
  * 快速幂算法
- * 
  * @param  {Number} base     底数
  * @param  {Number} exponent 指数
  * @return {Number}          幂

@@ -10,7 +10,6 @@ function TreeNode(x) {
 
 /**
  * 根据二叉树前序和中序遍历结果，递归构造二叉树
- * 
  * @param  {Array}    pre 前序遍历结果数组
  * @param  {Array}    vin 中序遍历结果数组
  * @return {TreeNode}     构造的二叉树

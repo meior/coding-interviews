@@ -1,6 +1,5 @@
 /**
  * 链表节点构造函数
- * 
  * @param {Number} x 节点值
  */
 function ListNode(x) {

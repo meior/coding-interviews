@@ -1,6 +1,5 @@
 /**
  * 求矩阵的覆盖方法
- * 
  * @param  {Number} number 矩阵列数
  * @return {Number}        方法总数
  */

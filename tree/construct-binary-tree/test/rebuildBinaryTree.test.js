@@ -7,7 +7,6 @@ let postorder = [];
 /**
  * 二叉树后序遍历
  * 用以验证构造的二叉树的正确性
- * 
  * @param   {TreeNode} root 二叉树根节点
  * @returns {Array}         后序遍历结果
  */

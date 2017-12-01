@@ -1,7 +1,6 @@
 /**
  * 在二维有序数组中查找元素
  * 数组每一行右递增，每一列下递增
- * 
  * @param  {Number}  target 查找目标
  * @param  {Array}   array  查找数组
  * @return {Boolean}        是否找到目标

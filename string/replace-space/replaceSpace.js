@@ -1,6 +1,5 @@
 /**
  * 将字符串中的空格都替换成"%20"
- * 
  * @param  {string} str 原字符串
  * @return {string}     替换后的字符串
  */

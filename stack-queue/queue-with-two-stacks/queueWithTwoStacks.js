@@ -1,7 +1,6 @@
 /**
  * 队列构造函数
  * 用两个栈实现队列操作
- * 
  */
 function Queue() {
   this.stack1 = [];
