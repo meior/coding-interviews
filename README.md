@@ -27,15 +27,16 @@ $ npm start
 
 This is the structure of project files:
 - project
-  - node_modules
+  - src
   - utils
   - .eslintrc
   - .gitignore
   - index.js
   - package.json
+  - package-lock.json
   - README.md
 
-The other folders are categories, there are several programming questions in them.You can find some files like these in questions folders:
+You can find categories in src folder, which include several programming questions in them.You can find some files like these in questions folders:
 - test
   - arraySearch.test.js(Mocha testing script)
   - data.js(test case)
