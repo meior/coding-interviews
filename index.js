@@ -15,7 +15,6 @@ Promise.resolve()
   // 对每个类别并行处理Promise流程，以获取题目数量
   .then((files) => {
     categories = files;
-    console.log(categories);
     const dirs = categories.map(dir => fileUtil.readDir(path.resolve(base, dir)));
     return Promise.all(dirs);
   })
